@@ -78,12 +78,13 @@ React app will be available at http://localhost:3000.
 ```
 ### Project Structure
 Backend (robot-fleet-backend/)
-
+```bash
 robot-fleet-backend/
 ├── app.py                 # Flask server with REST API and WebSocket
 ├── fake_robot_data.json   # JSON file with robot data
+```
 Frontend (robot-fleet-frontend/)
-
+```bash
 robot-fleet-frontend/
 ├── public/
 │   ├── index.html         # Main HTML file
@@ -95,4 +96,4 @@ robot-fleet-frontend/
 │   ├── AppRouter.js             # Main React component
 │   ├── index.js           # Entry point
     ├── README.md
-
+```
